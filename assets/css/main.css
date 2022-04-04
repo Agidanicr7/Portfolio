@@ -1245,6 +1245,10 @@ input, select, textarea {
 				.row > .imp-small {
 					order: -1;
 				}
+				.lastpic{
+					width:200px ;
+					height: 300px;
+				}
 
 				.row > .col-1-small {
 					width: 8.33333%;
@@ -2513,6 +2517,10 @@ input, select, textarea {
 			form ul.actions {
 				text-align: center;
 			}
+			.lastpic{
+				width: 200px;
+				height: 300px;
+			}
 
 		/* Feature List */
 
@@ -2774,6 +2782,11 @@ input, select, textarea {
 
 			hr {
 				margin: 1em 0 1em 0;
+			}
+			.lastpic{
+				width: 200px;
+				height: 300px;
+
 			}
 
 		/* Section/Article */
