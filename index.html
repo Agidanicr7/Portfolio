@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/assets/css/font-awesome.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -110,8 +113,28 @@
 						including those I've worked for on a project basis.</p>
 					</div>
 				</section>
-
-			<!-- Footer -->
+				<section id="main" class="wrapper style2">
+					<div class="title">Would you hire me?</div>
+					<div id="negative-alert" class="negative-alert">
+						<span onclick="Aclose()" class="closebtn" >&times;</span> 
+						<strong>Awwwww!</strong> I am sorry you feel that way.
+					  </div>
+					  <div id="positive-alert" class="positive-alert">
+						<span onclick="Aclose()" class="closebtn">&times;</span> 
+						<strong>Yaaaay!!</strong> I am glad i could convince you!
+					  </div>
+					<ul class="actions special">
+						<li> <button onclick="showAlerts()" class="button style2 large"><i style="font-size:20px;" class="fa fa-smile-o" aria-hidden="true"></i>
+							Yes</button></li>
+						<li><button onclick="showSadness()" class="button style1 large"><i style="font-size:20px;" class="fa fa-frown-o" aria-hidden="true"></i>
+							No</button></li>
+						
+					</ul>
+					</div>
+					
+					</section>
+					
+					<!-- Footer -->
 				<section id="footer" class="wrapper">
 					<div class="title">CONTACT</div>
 					<div class="container">
@@ -162,7 +185,7 @@
 											<section>
 												<h3 class="icon solid fa-phone">Phone</h3>
 												<p>
-													+2348105827186
+													<a href="tel:+2348105827186">Call me at +2348105827186</a>
 												</p>
 											</section>
 										</div>
@@ -188,11 +211,11 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>
