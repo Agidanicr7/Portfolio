@@ -1570,6 +1570,7 @@ input, select, textarea {
 
 	form ul.actions {
 		margin-top: 0;
+		text-align: center;
 	}
 
 	form ::-webkit-input-placeholder {
@@ -3005,3 +3006,36 @@ input, select, textarea {
 						}
 
 	}
+	.negative-alert {
+		padding: 20px;
+		background-color: #f44336;
+		color: white;
+		text-align: center;
+		display: none;
+	  }
+	  .positive-alert {
+		padding: 20px;
+		background-color: #08eb5f;
+		color: white;
+		text-align: center;
+		display: none;
+}
+	  
+	  .closebtn {
+		margin-left: 15px;
+		color: white;
+		font-weight: bold;
+		float: right;
+		font-size: 22px;
+		line-height: 20px;
+		cursor: pointer;
+		transition: 0.3s;
+	  }
+	  
+	  .closebtn:hover {
+		color: black;
+	  }
+	  .is-active{
+		  display: block;
+	  }
+	  
